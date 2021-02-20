@@ -1,8 +1,8 @@
 using NUnit.Framework;
 
-namespace BudgetCalculator
+namespace BudgetCalculator.UnitTests
 {
-    public class Budg
+    public class Tests
     {
         [SetUp]
         public void Setup()
