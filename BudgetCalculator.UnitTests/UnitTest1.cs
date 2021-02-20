@@ -2,7 +2,7 @@ using NUnit.Framework;
 
 namespace BudgetCalculator.UnitTests
 {
-    public class Tests
+    public class BudgetCalculatorTests
     {
         [SetUp]
         public void Setup()
@@ -10,9 +10,9 @@ namespace BudgetCalculator.UnitTests
         }
 
         [Test]
-        public void Test1()
+        public void Query_OneDayWith31AmountInJan_ReturnOne()
         {
-            Assert.Pass();
+            new BudgetCalculator
         }
     }
 }
